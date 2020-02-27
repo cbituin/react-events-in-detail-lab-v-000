@@ -10,6 +10,7 @@ export default class DelayedButton extends Component {
     }
   }
   
+<<<<<<< HEAD
   clickHandler = event => {
    setTimeout(() =>{
      event.persist();
@@ -21,6 +22,10 @@ export default class DelayedButton extends Component {
     return (
       <button onClick={this.clickHandler} />
     );
+=======
+  clickHandler = () => {
+    
+>>>>>>> d0dcffab319f709502650e8a3f3ba0296a3fc445
   }
   
 }
